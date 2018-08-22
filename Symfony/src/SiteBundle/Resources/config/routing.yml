@@ -1,0 +1,15 @@
+accueil:
+    path:     /
+    defaults: { _controller: SiteBundle:Default:index }
+
+nouvelle_consultation:
+    path:   /nouvelle-consultation
+    defaults: { _controller: SiteBundle:Default:creerConsultation}
+    
+liste_consultation:
+    path: /liste-consultation
+    defaults: { _controller: SiteBundle:Default:listeConsultation}
+    
+consultation:
+    path: /consultation/{id}
+    defaults: { _controller: SiteBundle:Default:consultation}

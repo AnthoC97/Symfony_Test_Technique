@@ -1,0 +1,92 @@
+[27-Jul-2018 08:28:53 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\Patient' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 16
+[27-Jul-2018 08:28:53 UTC] PHP Stack trace:
+[27-Jul-2018 08:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:28:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:28:53 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:28:53 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:28:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:28:53 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:29:54 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\Patient' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 16
+[27-Jul-2018 08:29:54 UTC] PHP Stack trace:
+[27-Jul-2018 08:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:29:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:29:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:29:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:29:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:29:54 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:30:22 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\Patient' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 16
+[27-Jul-2018 08:30:22 UTC] PHP Stack trace:
+[27-Jul-2018 08:30:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:30:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:30:22 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:30:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:30:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:30:22 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:32:20 UTC] PHP Fatal error:  Class 'Ctg\SiteBundle\Entity\Patient' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 21
+[27-Jul-2018 08:32:20 UTC] PHP Stack trace:
+[27-Jul-2018 08:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:32:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:32:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:32:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:32:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:32:20 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:32:40 UTC] PHP Fatal error:  Class 'Ctg\SiteBundle\Entity\Patient' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 21
+[27-Jul-2018 08:32:40 UTC] PHP Stack trace:
+[27-Jul-2018 08:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:32:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:32:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:32:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:32:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:32:40 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:00 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\p' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 21
+[27-Jul-2018 08:35:00 UTC] PHP Stack trace:
+[27-Jul-2018 08:35:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:35:00 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:35:00 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:35:00 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:35:00 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:00 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:28 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\P' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 21
+[27-Jul-2018 08:35:28 UTC] PHP Stack trace:
+[27-Jul-2018 08:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:35:28 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:35:28 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:35:28 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:35:28 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:28 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:53 UTC] PHP Fatal error:  Class 'SiteBundle\Controller\P' not found in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 21
+[27-Jul-2018 08:35:53 UTC] PHP Stack trace:
+[27-Jul-2018 08:35:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:35:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:35:53 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:35:53 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:35:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439}() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:35:53 UTC] PHP   6. SiteBundle\Controller\DefaultController->creerConsultationAction() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4439
+[27-Jul-2018 08:37:51 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 56
+[27-Jul-2018 08:37:51 UTC] PHP Stack trace:
+[27-Jul-2018 08:37:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 08:37:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 08:37:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 08:37:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 08:37:51 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4428
+[27-Jul-2018 08:37:51 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[27-Jul-2018 08:37:51 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3919
+[27-Jul-2018 08:37:51 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4700
+[27-Jul-2018 08:37:51 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4661
+[27-Jul-2018 08:37:51 UTC] PHP  10. class_exists() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975
+[27-Jul-2018 08:37:51 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975
+[27-Jul-2018 08:37:51 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975
+[27-Jul-2018 09:08:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/Symfony/src/SiteBundle/Controller/DefaultController.php on line 71
+[27-Jul-2018 09:08:49 UTC] PHP Stack trace:
+[27-Jul-2018 09:08:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Symfony/web/app_dev.php:0
+[27-Jul-2018 09:08:49 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/Symfony/web/app_dev.php:30
+[27-Jul-2018 09:08:49 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[27-Jul-2018 09:08:49 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4394
+[27-Jul-2018 09:08:49 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4428
+[27-Jul-2018 09:08:49 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[27-Jul-2018 09:08:49 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3919
+[27-Jul-2018 09:08:49 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4700
+[27-Jul-2018 09:08:49 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:4661
+[27-Jul-2018 09:08:49 UTC] PHP  10. class_exists() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975
+[27-Jul-2018 09:08:49 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975
+[27-Jul-2018 09:08:49 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/Symfony/var/cache/dev/classes.php:3975

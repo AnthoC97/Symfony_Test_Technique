@@ -1,0 +1,29 @@
+{% extends "SiteBundle:Layout:main.html.twig" %}
+
+{%block title %}{{parent()}} - Patient{% endblock %}
+
+{% block body %}
+    <body>
+        <header>
+        {% block header %}
+            {{parent()}}
+        {% endblock %}
+        </header>
+        <main>
+        {% block main %}
+            <ul>
+                <li>Nom : {{patient.name}}</li>
+                <li>prénom : {{patient.prenom}}</li>
+                <li>Date consultation : {{patient.dateConsultation | date("d/m/Y") }}</li>
+                <li>Prescription oeil gauche : {{patient.prescriptionG}}</li>
+                <li>Prescription oeil droit : {{patient.prescriptionD}}</li>
+                <li>Commentaire : </li>
+            </ul>
+        {% endblock %}
+        </main>
+        <footer>
+        {%block footer %}
+        {% endblock %}
+        </footer>
+    </body>
+{% endblock%}

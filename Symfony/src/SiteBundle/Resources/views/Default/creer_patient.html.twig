@@ -1,0 +1,25 @@
+{% extends "SiteBundle:Layout:main.html.twig" %}
+
+{%block title %}{{parent()}} - Patient{% endblock %}
+
+{% block body %}
+    <body>
+        <header>
+        {% block header %}
+            {{parent()}}
+        {% endblock %}
+        </header>
+        <main>
+        {% block main %}
+            <h3>Formulaire de création de Patient</h3>
+            <div>
+              {{ form(form) }}
+            </div>
+        {% endblock %}
+        </main>
+        <footer>
+        {%block footer %}
+        {% endblock %}
+        </footer>
+    </body>
+{% endblock%}

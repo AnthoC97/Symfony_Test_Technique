@@ -1,0 +1,32 @@
+{% extends "SiteBundle:Layout:main.html.twig" %}
+
+{%block title %}{{parent()}} - Patient{% endblock %}
+
+{% block body %}
+    <body>
+        <header>
+        {% block header %}
+            {{parent()}}
+        {% endblock %}
+        </header>
+        <main>
+        {% block main %}
+            <table>
+                <tr>
+                    <th>Nom et prénom du patient</th>
+                    <th>Date de Consultation</th>
+                </tr>
+                {% for p in patients %}
+                <tr>
+                    <td>{{p.name}} {{p.prenom}}</td><td>{{p.dateConsultation | date("d/m/Y")}}</td><td><a href="{{ path('consultation', {'id' : p.id}) }}">Consulter</a></td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% endblock %}
+        </main>
+        <footer>
+        {%block footer %}
+        {% endblock %}
+        </footer>
+    </body>
+{% endblock%}

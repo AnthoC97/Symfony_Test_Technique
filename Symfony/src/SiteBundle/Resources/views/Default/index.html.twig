@@ -1,0 +1,23 @@
+{% extends "SiteBundle:Layout:main.html.twig" %}
+
+{%block title %}{{parent()}} - Accueil{% endblock %}
+
+{% block body %}
+    <body>
+        <header>
+        {% block header %}
+            {{parent()}}
+        {% endblock %}
+        </header>
+        <main>
+        {% block main %}
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et laoreet risus, eu lacinia felis. Morbi efficitur ipsum ac quam tempor, gravida semper turpis sodales. Pellentesque finibus elit in odio sodales, interdum volutpat purus finibus. Phasellus ex dolor, tristique eu pharetra a, convallis quis nisi. Nullam elementum luctus nisi hendrerit condimentum. Aenean nunc quam, maximus vel fringilla tincidunt, posuere non mi. Duis felis mi, aliquet in tempus a, feugiat sit amet massa. Nam tincidunt sit amet purus vitae tristique. Nam convallis odio eu porta placerat. Etiam pulvinar venenatis leo ut mattis. Sed feugiat venenatis justo, at dignissim sapien scelerisque id. In malesuada nisl vulputate erat tristique tempus. Etiam elementum tellus id tristique fringilla. Nulla venenatis luctus libero, id tempus purus varius at.</p>
+        <p>Vestibulum ut odio non velit vestibulum pretium sed in ipsum. Donec dapibus tortor urna, non facilisis turpis facilisis at. Aliquam ac leo eget massa tincidunt efficitur vel non est. Mauris eget ligula felis. Pellentesque vel ex nibh. Aenean fermentum sit amet magna sed congue. Vestibulum et eros a lectus volutpat volutpat ac ultrices sem. In non velit vitae nulla pretium accumsan volutpat vel mi. Aenean mattis, nibh non aliquam ornare, magna risus varius dui, at tincidunt erat justo a ante. Vivamus elementum lectus arcu, nec ultrices elit ullamcorper eu. Curabitur at mi varius, bibendum nibh vel, fermentum neque. Vivamus non finibus lacus, vel semper leo. Aenean aliquet elementum venenatis. Sed interdum cursus nunc, nec congue risus ornare a.</p>
+        {% endblock %}
+        </main>
+        <footer>
+        {%block footer %}
+        {% endblock %}
+        </footer>
+    </body>
+{% endblock%}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{% block title%}SiView{% endblock %}</title>
+    </head>
+    {% block body %}
+        <body>
+            <header>
+            {% block header %}
+                <nav class="menu">
+                    <ul>
+                        <li><a href="{{ path('accueil')}}">Accueil</a></li>
+                        <li><a href="{{ path('nouvelle_consultation')}}">Nouvelle Consultation</a></li>
+                        <li><a href="{{ path('liste_consultation')}}">Liste des Consultations</a></li>
+                    </ul>
+                </nav>
+            {% endblock %}
+            </header>
+            <main>
+            {% block main %}
+            {% endblock %}
+            </main>
+            <footer>
+            {%block footer %}
+            {% endblock %}
+            </footer>
+        </body>
+    {% endblock%}
+</html>
